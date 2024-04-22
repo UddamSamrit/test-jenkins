@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("uddam/edureka")
+        app = docker.build("uddam/test-jenkins")
     }
 
     stage('Test image') {
