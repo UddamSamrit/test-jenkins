@@ -1,5 +1,7 @@
 # use a node base image
-FROM node:7-onbuild
+FROM alpine:3.18
+
+ENV NODE_VERSION 21.7.3
 
 # set maintainer
 LABEL maintainer "miiro@getintodevops.com"
